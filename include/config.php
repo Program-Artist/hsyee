@@ -1,8 +1,8 @@
 <?php
 $db_host='localhost';
-$db_name="hsyii";
+$db_name="school";
 $db_user="root";
-$db_pass='root';
+$db_pass='';
 
 Yii::setPathOfAlias('rootpath', ROOT_PATH);
 return array(
@@ -65,4 +65,3 @@ return array(
     ),
 );
 
-?>

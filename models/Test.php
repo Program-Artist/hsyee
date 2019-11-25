@@ -37,10 +37,10 @@ class Test extends BaseModel {
     }
 
 
-
-
     /**
      * Returns the static model of the specified AR class.
+     * @param string $className
+     * @return mixed
      */
     public static function model($className = __CLASS__) {
         return parent::model($className);

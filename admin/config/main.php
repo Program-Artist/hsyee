@@ -10,7 +10,6 @@ $st="";
         array(
             'award_index41' => array('我的班级', 'clubList/index'),
             'award_index42' => array('我教的班级', 'clubList/index'),
-            'award_index44' => array('2333', 'clubList/index'),
         ),
     ),
     array(
@@ -18,15 +17,13 @@ $st="";
         array(
             'award_index41' => array('录入成绩', 'clubList/index'),
             'award_index42' => array('查看成绩', 'clubList/index'),
-            'award_index44' => array('2333', 'clubList/index'),
         ),
     ),
     array(
         '考评管理',
         array(
-            'award_index41' => array('填写考评', 'clubList/index'),
-            'award_index42' => array('查看考评', 'clubList/index'),
-            'award_index44' => array('2333', 'clubList/index'),
+            'award_index41' => array('填写考评', 'evaluate/index'),
+            'award_index42' => array('查看考评', 'evaluate/check'),
         ),
     ),
      

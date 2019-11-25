@@ -26,11 +26,11 @@
         <a class="btn-menu" href="#"><i class="fa fa-reorder"></i></a>
         <ul class="nav">
             <li ><a href="#">中小学成绩和考评系统</a></li>            
-            <li><a href="<?php echo SITE_PATH;?>/" target="_blank"> <span>操作员：;?></span></a></li>
+            <li><a href="#"> <span>操作员：;?></span></a></li>
         </ul><!--nav end-->
         <ul class="tool">
             <li><a href="<?php echo SITE_PATH;?>/" target="_blank"><i class="fa fa-home"></i> <span>网站首页</span></a></li>
-            <li><a href="<?php echo $this->createUrl('index/login');?>"><i class="fa fa-sign-out"></i> <span>退出</span></a></li>;
+            <li><a href="<?php echo $this->createUrl('index/logout');?>"><i class="fa fa-sign-out"></i> <span>退出</span></a></li>;
         </ul><!--tool end-->
     </div><!--header end-->
     <div class="container">
