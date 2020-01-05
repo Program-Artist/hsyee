@@ -6655,3 +6655,16 @@ Stack trace:
 REQUEST_URI=/hsyee/index.php?r=evaluate/edit&id=20197311&name=%E6%9B%BE%E6%9F%94%E8%8A%B3&gender=%E5%A5%B3
 HTTP_REFERER=http://localhost/hsyee/index.php?r=evaluate/index
 ---
+2020/01/05 14:56:46 [error] [php] include(Teacher.php): failed to open stream: No such file or directory (D:\tools\wamp64\www\hsyee\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\admin\controllers\IndexController.php(28): spl_autoload_call()
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\IndexController.php(22): IndexController->login_form()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): IndexController->actionLogout()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): IndexController->runAction()
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): IndexController->run()
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CWebApplication->run()
+REQUEST_URI=/hsyee/index.php?r=index/logout

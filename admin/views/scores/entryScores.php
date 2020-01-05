@@ -5,6 +5,38 @@
         </div><!--box-header end-->
         <div class="box-search">
             <link href="static/admin/css/color.css">
+            <span>学年：</span>
+            <select>
+                <option name="year" value="2">2019-2020</option>
+                <option name="year" value="1">2018-2019</option>
+            </select>
+            <span style="margin-left:15px">年级：</span>
+            <select>
+                <option name="grade" value="7">7</option>
+                <option name="grade" value="6">6</option>
+                <option name="grade" value="5">5</option>
+                <option name="grade" value="4">4</option>
+                <option name="grade" value="3">3</option>
+                <option name="grade" value="2">2</option>
+                <option name="grade" value="1">1</option>
+            </select>
+            <span style="margin-left:15px">班级：</span>
+            <select>
+                <option name="class" value="7">7</option>
+                <option name="class" value="6">6</option>
+                <option name="class" value="5">5</option>
+                <option name="class" value="4">4</option>
+                <option name="class" value="3">3</option>
+                <option name="class" value="2">2</option>
+                <option name="class" value="1">1</option>
+            </select>
+            <span style="margin-left:15px">科目：</span>
+            <select>
+                <option name="subject" value="0">physical</option>
+                <option name="subject" value="1">chinese</option>
+                <option name="subject" value="2">math</option>
+                <option name="subject" value="3">english</option>
+            </select>
             <!--            <script type="text/javascript" src="static/admin/js/search.js"></script>-->
             <!--            <form action="--><?php //echo Yii::app()->request->url;?><!--" method="get">-->
             <!--                <input type="hidden" name="r" value="-->
