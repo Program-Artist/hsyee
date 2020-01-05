@@ -30,11 +30,12 @@
                 <tbody>
                 <?php $n = 0; ?>
                 <?php foreach ($scores_list as $item) { ?>
-                    <input type="hidden" name="info[<?php echo $n ?>][0]"  value="<?php echo $item['s_id'] ?>"
+                    <input type="hidden" name="info[<?php echo $n ?>][0]" value="<?php echo $item['s_id'] ?>"
                     <tr>
                         <td width="33%"><?php echo $item['s_id'] ?></td>
                         <td width="33%"><?php echo $item['s_name'] ?></td>
-                        <td width="33%"><input name="info[<?php echo $n ?>][1]" type="text" value="<?php echo $item['score1'] ?>"/>
+                        <td width="33%"><input name="info[<?php echo $n ?>][1]" type="text"
+                                               value="<?php echo $item['score1'] ?>"/>
                         </td>
                         <!--                        --><?php
                         //                        $write = array(
@@ -55,7 +56,7 @@
             </table>
             <div class="box-page c"></div>
             <div class="box-detail-submit">
-                <button onclick="submitType='baocun'" class="btn btn-blue" type="submit">保存修改</button>
+                <button onclick="submitType='baocun';alert('保存成功')" class="btn btn-blue" type="submit">保存修改</button>
             </div>
         </div><!--box-table end-->
         <?php $this->endWidget(); ?>

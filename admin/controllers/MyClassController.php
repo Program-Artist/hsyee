@@ -9,8 +9,11 @@
 class MyClassController extends BaseController
 {
     public function actionStudent(){
+        $criteria = new CDbCriteria();
+        $criteria->condition = "grade = 7 and class = 7";
+        $criteria->order = 's_id';
         $model = new Student;
-        $result = $model->findAll(new CDbCriteria);
+        $result = $model->findAll($criteria);
         return $this->render("student",array('s_list'=>$result));
     }
 

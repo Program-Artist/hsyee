@@ -5,7 +5,7 @@ class Scores extends BaseModel
 {
     public function tableName()
     {
-        return '{{s_scores}}';
+        return '{{scores}}';
     }
 
     public function  attributeLabels()

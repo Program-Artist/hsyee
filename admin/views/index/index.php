@@ -26,7 +26,7 @@
         <a class="btn-menu" href="#"><i class="fa fa-reorder"></i></a>
         <ul class="nav">
             <li ><a href="#">中小学成绩和考评系统</a></li>            
-            <li><a href="#"> <span>操作员：;?></span></a></li>
+            <li><a href="#"> <span>操作员: 174</span></a></li>
         </ul><!--nav end-->
         <ul class="tool">
             <li><a href="<?php echo SITE_PATH;?>/" target="_blank"><i class="fa fa-home"></i> <span>网站首页</span></a></li>

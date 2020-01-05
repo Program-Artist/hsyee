@@ -31,7 +31,7 @@
 
 <!--</form>-->
 
-<script type="text/javascript" src="static/admin/js/wangEditor.min.js"></script>
+<script type="text/javascript" src="static/admin/js/wangEditor.js"></script>
 <script type="text/javascript">
     var E = window.wangEditor;
     var editor = new E('#editor');

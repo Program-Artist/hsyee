@@ -27,13 +27,14 @@ class ScoresController extends BaseController
                 from (
                 select s_id,s_name
                 from student
-                where grade=1 and class=1  
+                where grade=7 and class=7
                 )as student
                 left outer join(
                 select sid,score1
                 from scores
-                where year=2019 and subject=0
-                ) as scores on s_id=sid";
+                where year='2019-2020' and subject=0
+                ) as scores on s_id=sid
+                order by s_id";
         $res = Yii::app()->db->createCommand($sql)->query();
         $result = $res->readAll();
 
@@ -48,7 +49,10 @@ class ScoresController extends BaseController
 
     public function actionScore(){
         $sql = "select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
-        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'";
+        ,bi_score1,po_score1,hi_score1,geo_score1 
+        from s_scores
+        where  grade =7 and class =7 
+        order by s_id";
         $res = Yii::app()->db->createCommand($sql)->query();
         $result = $res->readAll();
         return $this->render("score",array('sc_list'=>$result));

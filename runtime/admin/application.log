@@ -6418,3 +6418,240 @@ Stack trace:
 REQUEST_URI=/hsyee/index.php?r=scores/entryScores
 HTTP_REFERER=http://localhost/hsyee/
 ---
+2020/01/05 13:15:55 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:15:55 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:15:59 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:15:59 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:16:01 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:16:01 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:21:48 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:21:48 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:21:55 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:21:55 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:22:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `s_scores`.
+2020/01/05 13:22:01 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "Scores" 对应的 table "{{s_scores}}". in D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Scores))
+#1 D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1358): CActiveRecord->getTableSchema()
+#3 D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#4 D:\tools\wamp64\www\hsyee\admin\controllers\EvaluateController.php(58): CActiveRecord->findAll(Object(CDbCriteria))
+#5 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): EvaluateController->actionEdit()
+#6 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('edit')
+#10 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('evaluate/edit')
+#11 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#13 {main}
+REQUEST_URI=/hsyee/index.php?r=evaluate/edit&id=20197310&name=%E9%9F%A6%E6%B7%91%E6%9C%88&gender=%E5%A5%B3
+HTTP_REFERER=http://localhost/hsyee/index.php?r=evaluate/index
+---
+2020/01/05 13:32:57 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:32:57 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:34:00 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:34:00 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(52): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:47:38 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:47:38 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(53): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:49:14 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:49:14 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(53): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:49:17 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:49:17 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(53): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:49:23 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist. The SQL statement executed was: select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'.
+2020/01/05 13:49:23 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.s_scores' doesn't exist in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 D:\tools\wamp64\www\hsyee\admin\controllers\ScoresController.php(53): CDbCommand->query()
+#2 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionScore()
+#3 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('score')
+#7 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/score')
+#8 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#10 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/score
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 14:00:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'score1' in 'field list'. The SQL statement executed was: SELECT score1, score2 FROM `s_scores` `t` WHERE year = '2019-2020' and sid = 20197311 ORDER BY subject.
+2020/01/05 14:00:41 [error] [exception.CDbException] CDbException: CDbCommand 无法执行 SQL 语句: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'score1' in 'field list' in D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\tools\wamp64\www\hsyee\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1359): CDbCommand->queryAll()
+#2 D:\tools\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\tools\wamp64\www\hsyee\admin\controllers\EvaluateController.php(58): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\tools\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): EvaluateController->actionEdit()
+#5 D:\tools\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\tools\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\tools\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('edit')
+#9 D:\tools\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('evaluate/edit')
+#10 D:\tools\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\tools\wamp64\www\hsyee\index.php(33): CApplication->run()
+#12 {main}
+REQUEST_URI=/hsyee/index.php?r=evaluate/edit&id=20197311&name=%E6%9B%BE%E6%9F%94%E8%8A%B3&gender=%E5%A5%B3
+HTTP_REFERER=http://localhost/hsyee/index.php?r=evaluate/index
+---
