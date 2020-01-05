@@ -5,16 +5,28 @@ class Evaluate extends BaseModel{
         return '{{evaluate}}';
     }
 
-
-
+    /**
+     * 属性标签
+     */
     public function attributeLabels()
     {
         return array(
-            's_id' => '学号',
-            's_name' => '姓名',
-            's_gender' => '性别',
-            'grade' => '年级',
-            'class' => '班级'
+            'year' => '学年',
+            'sid' => '学号',
+            'evaluate1' => '第一学期评语',
+            'evaluate2' => '第二学期评语',
+        );
+    }
+
+    /**
+     * 模型验证规则
+     */
+    public function rules()
+    {
+        return array(
+//            array('evaluate1', 'required', 'message' => '{attribute} 不能为空'),
+            array('sid,year,evaluate1,evaluate2','safe')
+//            array('evaluate2', 'required', 'message' => '{attribute} 不能为空')
         );
     }
 
