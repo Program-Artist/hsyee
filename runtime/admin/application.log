@@ -5810,3 +5810,611 @@ Stack trace:
 REQUEST_URI=/hsyee/index.php?r=clubList/index
 HTTP_REFERER=http://localhost/hsyee/
 ---
+2020/01/05 12:59:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 12:59:47 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 12:59:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 12:59:55 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:24 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:25 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:25 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:25 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:25 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:25 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:26 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:27 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:27 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:27 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:27 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:27 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:54 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:00:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'school.club_list' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `club_list`.
+2020/01/05 13:00:55 [error] [exception.CDbException] CDbException: 数据库中无法找到 active record class "ClubList" 对应的 table "{{club_list}}". in D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(ClubList))
+#1 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\wamp64\www\hsyee\framework\db\ar\CActiveRecord.php(1609): CActiveRecord->getTableSchema()
+#3 D:\wamp64\www\hsyee\admin\components\BaseController.php(62): CActiveRecord->count(Object(CDbCriteria))
+#4 D:\wamp64\www\hsyee\admin\controllers\ClubListController.php(55): BaseController->_list(Object(ClubList), Object(CDbCriteria), 'index', Array)
+#5 [internal function]: ClubListController->actionIndex('')
+#6 D:\wamp64\www\hsyee\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ClubListController), Array)
+#7 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ClubListController), Object(ReflectionMethod), Array)
+#8 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\wamp64\www\hsyee\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\wamp64\www\hsyee\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('clubList/index')
+#13 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#15 {main}
+REQUEST_URI=/hsyee/index.php?r=clubList/index
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:10:39 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wamp64\www\hsyee\framework\db\CDbCommand.php:1535)
+Stack trace:
+#0 D:\wamp64\www\hsyee\admin\controllers\ScoresController.php(22): CDbCommand->update()
+#1 D:\wamp64\www\hsyee\framework\web\actions\CInlineAction.php(49): ScoresController->actionEntryScores()
+#2 D:\wamp64\www\hsyee\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\wamp64\www\hsyee\framework\web\CController.php(286): ScoresController->runAction()
+#4 D:\wamp64\www\hsyee\framework\web\CController.php(265): ScoresController->runActionWithFilters()
+#5 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(282): ScoresController->run()
+#6 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\wamp64\www\hsyee\index.php(33): CWebApplication->run()
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+2020/01/05 13:12:52 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:53 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---
+2020/01/05 13:12:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in D:\wamp64\www\hsyee\admin\controllers\ScoresController.php:22
+Stack trace:
+#0 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(276): CWebApplication->createController('entryScores/')
+#1 D:\wamp64\www\hsyee\framework\web\CWebApplication.php(141): CWebApplication->runController('scores/entrySco...')
+#2 D:\wamp64\www\hsyee\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\wamp64\www\hsyee\index.php(33): CApplication->run()
+#4 {main}
+REQUEST_URI=/hsyee/index.php?r=scores/entryScores
+HTTP_REFERER=http://localhost/hsyee/
+---

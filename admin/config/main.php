@@ -8,14 +8,14 @@ $st="";
     array(
         '班级管理',
         array(
-            'award_index41' => array('学生信息', 'clubList/index'),
+            'award_index41' => array('学生信息', 'myClass/student'),
         ),
     ),
     array(
         '成绩管理',
         array(
             'award_index41' => array('录入成绩', 'scores/entryScores'),
-            'award_index42' => array('年级成绩', 'clubList/index'),
+            'award_index42' => array('年级成绩', 'scores/score'),
         ),
     ),
     array(

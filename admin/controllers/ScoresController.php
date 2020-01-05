@@ -18,7 +18,7 @@ class ScoresController extends BaseController
                 Yii::app()->db->createCommand()->update('scores', array(
                     'score1' => $v[1]
                 ),
-                    "sid=:sid", array(':sid' => $v[0])
+                        "subject=0 and sid=:sid", array(':sid' => $v[0])
                 );
             }
         }
@@ -32,7 +32,7 @@ class ScoresController extends BaseController
                 left outer join(
                 select sid,score1
                 from scores
-                where year=2019 and subject=1
+                where year=2019 and subject=0
                 ) as scores on s_id=sid";
         $res = Yii::app()->db->createCommand($sql)->query();
         $result = $res->readAll();
@@ -44,5 +44,13 @@ class ScoresController extends BaseController
     {
         $model->attributes = $post;
         show_status($model->save(), '保存成功', get_cookie('_currentUrl_'), '保存失败');
+    }
+
+    public function actionScore(){
+        $sql = "select s_id,s_name,pe_score1,ch_score1,math_score1,en_score1,ph_score1,chem_score1
+        ,bi_score1,po_score1,hi_score1,geo_score1 from s_scores where  grade =1 and class =1 and pe_year ='2019-2020'";
+        $res = Yii::app()->db->createCommand($sql)->query();
+        $result = $res->readAll();
+        return $this->render("score",array('sc_list'=>$result));
     }
 }

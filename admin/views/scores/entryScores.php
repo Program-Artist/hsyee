@@ -24,7 +24,7 @@
                 <tr>
                     <th>学号</th>
                     <th>姓名</th>
-                    <th>科目成绩</th>
+                    <th>体育成绩</th>
                 </tr>
                 </thead>
                 <tbody>
